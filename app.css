@@ -1,0 +1,18 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow-y: auto; /* Hide vertical scrollbar */
+    scrollbar-width: thin;
+    scrollbar-color: hsl(0, 0%, 21%) transparent;
+}
+.all_content {
+    min-height: 100%;
+}
+.all_content_inside {
+    padding: 20px;
+    padding-bottom: 50px;
+}
+.sticky_footer {
+    height: 50px;
+    margin-top: -50px;
+}
