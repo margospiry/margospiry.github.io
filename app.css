@@ -1,0 +1,14 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: hsl(0, 0%, 21%) transparent;
+  scroll-behavior: unset !important;
+}
+.all-content-2 {
+  min-height: calc(100vh - 2rem);
+}
+.all-content-10 {
+  min-height: calc(100vh - 10rem);
+}
